@@ -1,0 +1,657 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Cupids schoole wherein yong men and mayds may learne divers sorts of new, witty, and amorous complements / newly written and never any written before in the same kinde.</title>
+            <author>W. B.</author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1642</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 54 KB of XML-encoded text transcribed from 24 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2012-10">2012-10 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">A58753</idno>
+            <idno type="STC">Wing S191</idno>
+            <idno type="STC">ESTC R37194</idno>
+            <idno type="EEBO-CITATION">16267657</idno>
+            <idno type="OCLC">ocm 16267657</idno>
+            <idno type="VID">105190</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. A58753)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 105190)</note>
+            <note>Images scanned from microfilm: (Early English books, 1641-1700 ; 1156:14)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>Cupids schoole wherein yong men and mayds may learne divers sorts of new, witty, and amorous complements / newly written and never any written before in the same kinde.</title>
+                  <author>W. B.</author>
+               </titleStmt>
+               <extent>[46] p. : ill.  </extent>
+               <publicationStmt>
+                  <publisher>Printed at London for Rich. Cotes, and are to be sold by Francis Grove ...,</publisher>
+                  <pubPlace>[London] :</pubPlace>
+                  <date>1642.</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>"A complement to the reader" signed: W.S.</note>
+                  <note>Contains illustrated t.p.</note>
+                  <note>Imperfect: tightly bound with loss of print.</note>
+                  <note>Reproduction of original in the Huntington Library.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Courtship --  England.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2011-12</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2011-12</date>
+            <label>Apex CoVantage</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2012-02</date>
+            <label>Louis Goldberg</label>Sampled and proofread</change>
+         <change>
+            <date>2012-02</date>
+            <label>Louis Goldberg</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2012-05</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="title_page">
+            <pb facs="tcp:105190:1"/>
+            <pb facs="tcp:105190:1"/>
+            <p>
+               <hi>C<g ref="char:V">Ʋ</g>PIDS</hi> SCHOOLE: Wherein Yong men and Mayds may learne diverſe ſorts of new, witty, Amorous Complements.</p>
+            <p>Newly written, and never any written be<g ref="char:EOLhyphen"/>fore in the ſame kinde.</p>
+            <q>
+               <l>Complaine unto thy Love with flattering Art,</l>
+               <l>For gentle words do move the hardeſt heart.</l>
+            </q>
+            <figure>
+               <figDesc>cupid seated before a stand with an open book in front of three standing couples</figDesc>
+            </figure>
+            <p>Printed at London by <hi>Rich. Cotes,</hi> and are to be ſold by <hi>Francis Grove,</hi> dwelling on <hi>Snow-hill,</hi> neere the <hi>Saraſins-head,</hi> 1642.</p>
+         </div>
+         <div type="preface">
+            <pb facs="tcp:105190:2"/>
+            <pb facs="tcp:105190:2"/>
+            <head>The Character and Deſcription of a Complement.</head>
+            <p>
+               <seg rend="decorInit">I</seg>N the old time their Garments were plaine, and ſo were their words and meaning. But after<g ref="char:EOLhyphen"/>ward, ſome more witty than the reſt (finding what power perſwa<g ref="char:EOLhyphen"/>
+               <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ion hath over the minde of man) invented a new art of words called Complements: which <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>s indeed nothing but an effable and courte<g ref="char:EOLhyphen"/>ous manner of ſpeech, and yet is now growne ſo neceſſary, that nothing can be done without <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>hem. For men now a-dayes regard not vertu<g ref="char:EOLhyphen"/>ous qualities, but onely a pleaſingneſſe of nature and condition, ſo that hee that ſpeaketh beſt, <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>eeds beſt, and ſhall be ſure to be preferred before the plaine meaning man. So that the ne<g ref="char:EOLhyphen"/>
+               <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>eſſity of theſe times doth enforce us to learne <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>he Art of Complements, which I will prove <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>nto you by particulars; and firſt in love, he that <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>hinkes to winne affection by telling a Mayd in
+<pb facs="tcp:105190:3"/> plaine tearmes that hee loves her, is much de<g ref="char:EOLhyphen"/>ceived, for when ſhe heares you begin ſo plain<g ref="char:EOLhyphen"/>ly, ſhe will ſtart backe from you, and think you to be ſome ignorant <hi>Coridon,</hi> that know not <hi>Cupids</hi> language: when on the contrary, hee that can deliver his minde in amorous words, doth ſeeme to keepe the keyes of their May<g ref="char:EOLhyphen"/>denheads, of which he can take poſſeſſion when he liſt, for their hearts are at his devotion; while the other poore Lover that cannot expreſſe his minde in a Complement, may pine away with ſorrow unregarded, for he that loves moſt is many times neglected, and he that loves leaſt is oftentimes moſt reſpected. Therefore it be<g ref="char:EOLhyphen"/>hooves a Lover now adaies to uſe ſome Com<g ref="char:EOLhyphen"/>plement &amp; inſinuation to procure affection, for a man can prevaile in nothing without Com<g ref="char:EOLhyphen"/>plements: your friend will not thinke you his friend, without you ſalute him with a Comple<g ref="char:EOLhyphen"/>ment: you cannot invite one home, nor enter<g ref="char:EOLhyphen"/>taine him afterward, without Complements neither can you keepe company, or be ſociable without the mutual enterchanging of Comple<g ref="char:EOLhyphen"/>ments. To conclude therefore, a Complemen<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap> is the language of Callants, the Conquer our o<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap> Mayden-heads, the quinteſſence of wit, the reſ<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>
+               <g ref="char:EOLunhyphen"/>ner of ſpeech, and neceſſary both in City an<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap> Countrey. For though the Countrey-man be
+<pb facs="tcp:105190:3"/> plaine, yet faire and courteous words will pre<g ref="char:EOLhyphen"/>vaile much with the goodneſſe of his nature: and this may be ſeene by the fable of <hi>Mercury</hi> and <hi>Iupiter,</hi> who wandring one night upon the plaines, not knowing where to get a lodging, at laſt they came to the houſe of old <hi>Baucis</hi> and <hi>Philemon,</hi> an old marryed couple, who had long lived together in a poore cottage: here <hi>Iupiter</hi> beginning to make his caſe known, the old wife <hi>Bauci<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>
+               </hi> began to ſcold, and told him plainely ſhe had no lodging for him, till at laſt <hi>Mercury</hi> ſo farre prevailed with his complementall elo<g ref="char:EOLhyphen"/>quence, that the good wife being raviſhed with his ſweete words, ſtraight opened the doore, lighted a candle, and entertained them with all kindneſſe and courteſie<g ref="char:punc">▪</g> whereby you may ſee that ſuch is the power of Complements, that it breakes lockes, opens doores at mid-night, and will give you acceſſe to the miſtreſſe of your heart, if you can but handſomely complement with the Maid, and come over her with melting language; onely you muſt remember to mingle ſome kiſſes, and line her Apron with gold, and then you may be ſure to obtaine your owne de<g ref="char:EOLhyphen"/>ſires. Beſides, as Complements are neceſſary in wooing, ſo you cannot counſell your friend to refraine from any vicious courſe, unleſſe you uſe the inſ<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>nuation of a Complement, fortruth
+<pb facs="tcp:105190:4"/> is ſo ſharpe, that it is diſpleaſing to all men, and ſeemes to grate their eares, if it be not ſweetned by ſome pleaſant diſcourſe; and therefore when you are to doe the tendereſt office of a friend, which is to lay his ſhame and vice before him, there is nothing can give a more ready entrance to your words, or make him more willingly en<g ref="char:EOLhyphen"/>dure the ſharpeneſſe of good counſell, than to beginne in a loving and complementall manner. Seeing therefore that a Co<g ref="char:cmbAbbrStroke">̄</g>plement is ſo grace<g ref="char:EOLhyphen"/>full to the ſpeaker, ſo delightfull to the hearer, and ſo powerfull to winne affection, I hope young men will imbrace and love this Booke, which teacheth them how to obtain their love. And I hope young Mayds will lay it under their pillow, and read it when they goe to bed, ſince, it will inſtruct them how to give an Anſwer to their amorous Sutors. And ſo wiſhing to all young men and Maydes the accompliſhment of their deſires, I leave theſe complements to their peruſall.</p>
+         </div>
+         <div type="to_the_reader">
+            <pb facs="tcp:105190:4"/>
+            <head>A Complement to the Reader.</head>
+            <opener>
+               <salute>Gentle Reader,</salute>
+            </opener>
+            <p>IT is ſome perſwaſion to read a Booke, when wee dare ſay that the matter is new, and that there was never any thing written in the ſame kind. This we may affirme of theſe Complements: and there<g ref="char:EOLhyphen"/>fore hauing had no patterne of imitation to direct me, I hope (kind Reader) thou wilt ſo much the ra<g ref="char:EOLhyphen"/>ther vouchſafe out of thy wonted kindneſſe to grace them with thy favourable acceptance. Let their new<g ref="char:EOLhyphen"/>neſſe perſwade thee to rerd, and then I doubt not but thou ſhalt find ſome amongst them ſo pleaſant and delightfull, as will induce thee to crowne my la<g ref="char:EOLhyphen"/>bours with thy free commendations. For as I am ſtudious to benefit thee in in any thing I may ſo all the ayme of my deſire is, to bee thought worthy of thy li<g ref="char:EOLhyphen"/>king and good opinion: which if thou grant mee, it ſhall oblige the ſervice of my Pen to pleaſure th<gap reason="illegible" resp="#KEYERS" extent="2 letters">
+                  <desc>••</desc>
+               </gap> in this or any other kind. So I reſt,</p>
+            <closer>
+               <signed>Thine as mine, W. S.</signed>
+            </closer>
+         </div>
+         <div type="authors_note">
+            <pb facs="tcp:105190:5"/>
+            <head>The Author to the Reader.</head>
+            <lg>
+               <l>VVHen thou dost chance to fall in love by power of <hi>Cupids</hi> bow,</l>
+               <l>If thou theſe Complements doe prove, their vertue thou ſhalt know.</l>
+            </lg>
+            <lg>
+               <l>Suppoſe thy Sweet-heart fled from thee, as <hi>Daphne</hi> fram <hi>Apollo,</hi>
+               </l>
+               <l>Yet ſhe at laſt changed will be, if thou the c<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ace doe follow.</l>
+            </lg>
+            <lg>
+               <l>And if theſe Complements thou uſe, in fitting place and time:</l>
+               <l>The Maid that did thy love refuſe, ſhall unto love incline.</l>
+            </lg>
+            <lg>
+               <l>For though my ſelfe did never try, yet I have heard it ſaid,</l>
+               <l>Faire words and opportunity, will winne the coyeſt Maid.</l>
+            </lg>
+         </div>
+         <div type="table_of_contents">
+            <pb facs="tcp:105190:5"/>
+            <head>The Contents.</head>
+            <list>
+               <item>1 TO wooe a Mayd.</item>
+               <item>2 The Mayds anſwer.</item>
+               <item>3 To urge a ſute the ſecond time.</item>
+               <item>4 The Mayds anſwer.</item>
+               <item>5 The Lovers reply.</item>
+               <item>6 Maſter <hi>Braineleſſe</hi> his wooing of <hi>Barbara</hi>
+               </item>
+               <item>7 To excuſe ſome inconſiderate ſpeeches to <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> Gentlewoman.</item>
+               <item>8 To welcome one home.</item>
+               <item>9 To perſwade by way of counſell.</item>
+               <item>10 To entreate a courteſie.</item>
+               <item>11 The Anſwer.</item>
+               <item>12 To bid a Bride goodmorrow.</item>
+               <item>13 To bid a Bridegroome goodmorrow.</item>
+               <item>14 At the firſt meeting of a friend.</item>
+               <item>15 The other friends anſwer.</item>
+               <item>16 To preſent a gift to a Mayd.</item>
+               <item>17 To bid a friend farewell.</item>
+               <item>18 To entreat a courteſie of a ſtranger.</item>
+               <item>19 To aske a Fathers good will to marry his Daughter.</item>
+               <item>20 To begin a health.</item>
+               <item>21 To promiſe to pledge it.</item>
+               <pb facs="tcp:105190:6"/>
+               <item>22 To deſire to be excus'd.</item>
+               <item>23 To acquaint one wiih a journey.</item>
+               <item>24 To thanke one for a curteſie.</item>
+               <item>25 To excuſe a friend in his abſence.</item>
+               <item>26 The wooers complement.</item>
+               <item>27 The Mayes anſwer.</item>
+               <item>28 The Wooers anſwer.</item>
+               <item>29 To invite one home.</item>
+               <item>30 To excuſe with thankes.</item>
+               <item>31 To deliver a letter to a Lady.</item>
+               <item>32 The Ladies anſwer to her Waiting-Mayd.</item>
+               <item>33 The Waiting-Mayds anſwer.</item>
+               <item>34 The Serving-mans wooing of <hi>Suſan</hi> a Chamber-mayd,</item>
+               <item>35 <hi>Suſans</hi> anſwer.</item>
+               <item>36 To deſire the Mayd to ſpeak to the Miſtres.</item>
+               <item>37 To entreat lodging at a Gentlemans houſe.</item>
+               <item>38 The Gentlemans anſwer.</item>
+               <item>39 A bold Complement to a Widdow.</item>
+               <item>40 The Widdowes anſwer.</item>
+               <item>41 To wooe a Country-Mayd.</item>
+               <item>42 The Country-Mayds anſwer.</item>
+            </list>
+         </div>
+      </front>
+      <body>
+         <div type="text">
+            <pb facs="tcp:105190:6"/>
+            <head>A BOOKE OF COMPLEMENTS.</head>
+            <p>As there are divers occaſions of ſpeech, ſo to have variety of words and phraſes to ex<g ref="char:EOLhyphen"/>preſſe ones ſelfe, muſt needs be an ornament to the ſpeaker, and delightfull to the hearer: I have therefore in this little Booke ſet down ſome formes of ſpeaking and anſwering, as followeth.</p>
+            <div n="1" type="complement">
+               <head>1. To wooe a Mayd.</head>
+               <p>
+                  <seg rend="decorInit">F</seg>Aire Mayd, the opportunity of time and place (none being by to over-heare us) doth invite mée to diſcover my affection. For ſince nothing can be determined in loves affaires without conſent of both parties, I meane now ſo acquaint you with my deſire:
+<pb facs="tcp:105190:7"/> Which is, that ſince my heart hath made choice of you in the way of marriage, you would bée pleaſed to receive my love with like affection: I know I might have delivered my mind in more choice and eloquent words, but beléeve me, that love is trueſt, which ſpeakes plaineſt. Now the reaſons that induce mée to ſéeke your lovs, are the vertuous qualities which adorne your mind; whoſe amiable and lovely beauty makes my heart burne with a chaſt affection: Thinke not therefore that any foule deſires move me to become a Suitor to y<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>u, nor am I haſty for marriage; for if you pleaſe to grant mée your love, I will ſtay your leaſure to ap<g ref="char:EOLhyphen"/>point the day to conſummate our happineſſe. I am a young pleader at the Barre of affection, and therefore hope you will not diſcourage me in my firſt ſuit, but rather ſince my cauſe is full of love, will at laſt give me a happy anſwere. Fearfull diſtruſt I know doth plead againſt me, and tels you how Maides have béene de<g ref="char:EOLhyphen"/>ceived by flattering men, who have onely made a Complement of love to obtaine their own de<g ref="char:EOLhyphen"/>ſires But alas (faire Maide) condemne not all becauſe ſome have béene falſe hearted: for I dare promiſe for my ſelfe, that the ſtreame of my affection ſlowing from your vertues ſhall ever kéepe a conſtant courſe. For the ſeale of
+<pb facs="tcp:105190:7"/> your love is ſo déepely imprinted in my heart, that no time can weare it out: and therefore be aſſured, that till you ceaſe to be vertuous (which I know is impoſſible) I can never ceaſe to love you. And thus (ſwéet Mayd) I have unclaſped the volumne of my ſecret thoughts, wherein you may read by faire intents, which are onely to obtaine your love. and ioyne your heart néerer to mine by the inviolable Bond of marriage. Let me deſire you therefore to unfold your lips, and give a favouring. anſwer to my languiſh<g ref="char:EOLhyphen"/>ing hopes.</p>
+            </div>
+            <div n="2" type="complement">
+               <head>2. The Maids anſwer</head>
+               <p>SIr, your language is ſo full of chaſt affe<g ref="char:EOLhyphen"/>ction, and delivered with ſo much mooving paſſion, that had my fancy hitherto entertai<g ref="char:EOLhyphen"/>ned a thought of love, you had certainly prevai<g ref="char:EOLhyphen"/>led over the weakeneſſe of a Mayds reſiſtance. But alas, your love is a ſtranger to my heart; and therfore blame me not if I dare not receive it as a plaine gueſt, till I have conſulted with my owne thoughts. Sudden conſent is alwaies held dangerous, and is ſtill followed by repen<g ref="char:EOLhyphen"/>tance. And therefore give me leave to conſider your late motion, &amp; I wil ſtudy your ſatisfectio<g ref="char:cmbAbbrStroke">̄</g> in my anſwer: which if it proove not to your con<g ref="char:EOLhyphen"/>tent, yet it ſhall expreſſe my thankfulneſſe for
+<pb facs="tcp:105190:8"/> that love you beare me. In the meane time I muſt diſmiſſe my ſelfe from your company, for I feare my mother hath tooke notice of our con<g ref="char:EOLhyphen"/>ference, and ſo for my abrupt departure (if it be any breach of manners) I muſt relye on your parton.</p>
+            </div>
+            <div n="3" type="complement">
+               <head>3. To urge a ſuite the ſecondtime.</head>
+               <p>THe next day, repairing to the former place, I ſpyed theſe two Lovers lying on a bank of Flowers, ſo that uſing the friendſhip of ſome buſhes to hide me, I lay downe, and ſo u<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ſeene over-heard the former Sutor renewing his ſute in theſe words: Faire Mayd, now is the time that your promiſe hath ingag'd you to give an anſwer to my doubtfull feares: and now I am to receive my ſentence from you, which I hope ſhall be full of comfort, ſince the greateſt offence wherewith you can charge my heart, is onely this, that I love you: and therefore I came to this place full of hope to be made happy by your anſwer, ſo let mée returne full of ioy by your frée conſenting to my former motion<g ref="char:punc">▪</g> But what néede I doubt, or afflict my ſelfe with vaine feares? ſince I doe reads ſome comfort in your chéerefull countinance, which caynot, like a cruell Iudge, ſmile and condemne at once M<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>
+                  <pb facs="tcp:105190:8"/> heart doth preſage, that during my abſence, <hi>Cu<g ref="char:EOLhyphen"/>pid</hi> hath wrought in your heart a good opinion of mée, which if you are unwilling to let your tongue confeſſe, leſt a buſh ſhould ſpread it ſelf upon your chéeke: I am content to take you<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> ſilence for my anſwer, ſo you will ſuffer me, ac<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>
+                  <g ref="char:EOLunhyphen"/>cording to the rules of love, to interpret that ſi<g ref="char:EOLhyphen"/>lence for conſent, But ſay, I ſée your lips are ready to prepare my doome, and therefore with patience I will expect my ſentence either of life or death, ſince it is in your power to raiſe mee up, or caſt me downe.</p>
+            </div>
+            <div n="4" type="complement">
+               <head>4. The Mayds anſwer.</head>
+               <p>SIr, I perceive the love that you profeſſe un<g ref="char:EOLhyphen"/>to me can receive no alteration by time: for I was in good hope, that your two dayes abſence would have inform'd your iudgement, to place your love on ſome more worthy choyce. But now ſince you are bent ſtill to proſecute your former ſuite, and will not beléeve me when I <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ell you how much I want of thoſe v<gap reason="illegible" resp="#KEYERS" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>tues which you attribute to me, I hope you will not <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>lame mée if I conſent to your former motion: for I beléeve you love me in the way of mar<g ref="char:EOLhyphen"/>
+                  <gap reason="illegible" resp="#KEYERS" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>ge, and in that aſſuran<gap reason="illegible" resp="#MURP" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> I grant you my love <gap reason="illegible" resp="#KEYERS" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>aine.</p>
+            </div>
+            <div n="5" type="complement">
+               <pb facs="tcp:105190:9"/>
+               <head>5. The Lovers reply.</head>
+               <p>IT is a grant that makes me happy, and now let me ſeale my patent with this kiſſe, for you have given me your love, and with it a little world of happineſſe: So that there remaines nothing, but that we appoint our wedding day, which I will not haſten through any forward deſire of mine owne: For ſince I have obtain'd your promiſe for marriage, I doe beléeve that our hearts are already married in heaven, be<g ref="char:EOLhyphen"/>fore a Congregation of Angels, which the Church ſhal but only publiſh and make known to the world. And ſo bidding adieu to vaine Complements, which onely became mée as a Sutor, I hope I may now ſay you are mine, as I am yours.</p>
+            </div>
+            <div n="6" type="complement">
+               <head>6. Maſter Brainleſſe his wooing of Miſtriſſe Barbara.</head>
+               <p>SWéete Miſtreſſe Barbara, I beſéech you not to be barbarous unto mée. For our Father<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> have made the match already, and I am now come to w<gap reason="illegible" resp="#KEYERS" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>e you: for I feele the mouth o<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> my affection begin to water at thée, ſo th<gap reason="illegible" extent="2 letters">
+                     <desc>••</desc>
+                  </gap> there muſt be ſome ſpéedy remedy found out t<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> allay my burning heat; for if I looke, but <gap reason="illegible" extent="2 letters">
+                     <desc>••</desc>
+                  </gap> your pretty foote, I féele my heart begin to riſ<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>
+                  <pb facs="tcp:105190:9"/> beneath my girdle, that ſure I thinke thou haſt ſome ſpirit about thée, which doth bewitch mée, but I hope ere long, you ſhall finde that I have a ſpirit too, which if it take after my Mother, it may be a devilliſh ſpirit for any thing I know, for I am ſure ſhee was an arrant ſhrew. But I love no long diſcourſe, and therefore I would entreat you,</p>
+               <lg>
+                  <l>That you would looke upon my wounded heart<g ref="char:punc">▪</g>
+                  </l>
+                  <l>And with your favour helpe to eaſe my ſmart.</l>
+               </lg>
+            </div>
+            <div n="7" type="complement">
+               <head>7. To excuſe ſome inconfiderate ſpeeches to a Gentlewoman.</head>
+               <p>IF formerly (ſwéet Miſtris) I have throwne out any words inconſiderately, which might move your anger, I beſéech you pardon them, or if my tongue have wronged my heart by haſty ſpeaking, attribute it to my raſhneſſe, not want of love: for I recant thoſe wordes that have mooved your iuſt diſdaine, and ſince they cannot be recalled, let your wiſedome and ſwéetneſſe of nature be ſhewed in pardoning, as my folly was in offending: Let theſe words excuſe my treſpaſſe, for I know you are full of mercy, and cannot long deny a pardon to him that ſues for it with teares, though in a greater matter. But I ſée you turne away from mée as if my words ſéeking to excuſe my former
+<pb facs="tcp:105190:10"/> words did ſtill offend you, and therefore I will beg ſome favour from you in theſe few verſes which I made upon this occaſion.</p>
+               <lg>
+                  <l>If that my tongue (faire Nymph) hath ſaid a<g ref="char:EOLhyphen"/>miſſe,</l>
+                  <l>The ſame for pardon now a Sutor is,</l>
+                  <l>Or for it ſelfe if it too weakely pleade,</l>
+                  <l>My lips on its beh<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>lfe thus intercede:</l>
+                  <l>Thus ſue, thus beg, and begging will not leave,</l>
+                  <l>Till they a pardon ſ<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>al'd from yours receive,</l>
+                  <l>And while my kiſſes beg, O happy me,</l>
+                  <l>If I might ever ſuch a begger be.</l>
+               </lg>
+            </div>
+            <div n="8" type="complement">
+               <head>8. To welcome one home.</head>
+               <p>SIr, we have often wiſhed your compony at home, and now you have made us happy in our deſires, by your ſafe ret<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>rne, to bid you welcom is but the common rode way of friend<g ref="char:EOLhyphen"/>ſhip, and therefore I would f<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ine ſpeake ſome<g ref="char:EOLhyphen"/>thing that might ſet forth my love more fully, but indéed I find that all words are tóo meane to expreſſe the ioy tha<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> my heart conceives at your happy returne, Wée were fearfull and ſolicitons, leaſt ſome misfortune might befall you in the way But now we muſt confeſſe we owe a ſacrifice of thankes to Heaven for pro<g ref="char:EOLhyphen"/>tecting you in your iourney, and bringing you backe againe unto us, to whom I dare pr<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ſume
+<pb facs="tcp:105190:10"/> you are as welcome as health to the ficke man, or a calme to the Weather-beaten Mar<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>iner. To conclude, I could bid you welcome a thou<g ref="char:EOLhyphen"/>ſand times, and yet thinke thoſe welcomes too few for ſince my love to you is infinite, I muſt néeds ſay you are infinitely welcome.</p>
+            </div>
+            <div n="9" type="complement">
+               <head>9. To perſwade by way of Councell.</head>
+               <p>SIr, were I worthy to counſell you of whom I am more fit to learne than to adviſe, I would perſwade you, to leave off that ill company, to which I finde you are too much addicted For I profeſſe unto you, my counſell is directed to no other aime, but your owne good, and to entreate you to be kind unto your ſelfe, and not to diſgrace your parentage and birth, by frequenting ſuch baſe and ignoble company, who onely deſire to infect you with their vices, and who like ſhaddowes onely de<g ref="char:EOLhyphen"/>pend upon the Sunne of your fortune: which if once it be darkened by the aclipſe of adverſity, you ſhall finde that you who before could num<g ref="char:EOLhyphen"/>ber ſo many friends, ſhall then be left alone to deplore your owne folly, in thinking that thoſe could be friends unto you, who are not friends unto themſelves: for having by their owne laviſh profuſion ſpent their owne eſtates, all their purpoſe now is to winde you into the
+<pb facs="tcp:105190:11"/> ſome Labyrinth of miſery, if there thou have al<g ref="char:EOLhyphen"/>ready entred into the intricate wayes of vice, let my counſell ſerve like Adriadne's clew of thred to guide your ſteps, backe againe into the way of vertue, from which you have too farre already wandred. But perhaps I ſhall obtaine your hatred, and by ſéeking to reclaime your er<g ref="char:EOLhyphen"/>rours, ſhall there by loſe your favour, yet how<g ref="char:EOLhyphen"/>ever, I ſh<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ll expreſſe the duty and office of a friend: for while I ſee you run theſe wilde, and ruinous courſes, though I am your friend, I will not be your flatterer.</p>
+            </div>
+            <div n="10" type="complement">
+               <head>10. To entreate a courteſie</head>
+               <p>SIr, you ſhall oblige mée to you, by adding one new favour to your former courteſies, for ſo it is, that my buſineſſe will miſcarry, un<g ref="char:EOLhyphen"/>leſſe I obtaine your aſſiſtance, which if you pleaſe to grant mée, you ſhall not onely binde me unto you by the reſ<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>e<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>s of duty and obſer<g ref="char:EOLhyphen"/>vance, but ſhall alſo expreſſe your ſelfe the mi<g ref="char:EOLhyphen"/>racle of true friendſhip, I confeſſe I am un<g ref="char:EOLhyphen"/>willing to be troubleſome unto <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ou, but yet ſuch is the commanding neceſſity of my af<g ref="char:EOLhyphen"/>faires, that I muſt aſſume an unwonted bold<g ref="char:EOLhyphen"/>neſſe to petition your favour and aſſiſtance in my behalfe.</p>
+            </div>
+            <div n="11" type="complement">
+               <pb facs="tcp:105190:11"/>
+               <head>11. The anſwer.</head>
+               <p>SIr, you may command mée; for I am ſo wholly devoted to your ſervice, that you may aſſure your ſelfe, I can deny you no re<g ref="char:EOLhyphen"/>queſt which lies within the circle or compaſſe of my power. For my heart is yours, and there<g ref="char:EOLhyphen"/>fore what good I am able to doe you (either in this or any other kind) you may promiſe your ſelfe) being indéed glad to be imployed in any ſervice that concernes you, ſo that (to the abi<g ref="char:EOLhyphen"/>lity of a poore friend) I ſhall be ev<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>r ready to ſecond your deſires with my beſt endeavours. Command me therefore when you pleaſe, and you ſhall finde mée your ready ſervant, for I languiſh with a deſire to doe you ſome courteſie that may expreſſe that friendſhip and love I owe you, which hath hitherto laine dead in me, for want of opportunity to demonſtrate and make it evident to the eyes of the World, by ſome friendly office.</p>
+            </div>
+            <div n="12" type="complement">
+               <head>12. To bid a Bride good morrow.</head>
+               <p>MIſtris Bride, I wiſh the ioyes of love may be ſtill multiplyed upon you. Nay bluſh not, for it is no ſhame to doe the Common wealth ſervice, by bringing a race of Souldi<g ref="char:EOLhyphen"/>ers into the World. I know this night you
+<pb facs="tcp:105190:12"/> have endevoured for it, but we muſt ſée the fruit hereafter: All this I wiſh is, that your Hus<g ref="char:EOLhyphen"/>band and you may live together like a conten<g ref="char:EOLhyphen"/>ted paire, happy in each other. What now? Wéeping? I hope you will not give ſuch an ex<g ref="char:EOLhyphen"/>ample to the Mayds, or ſo diſable your Bride<g ref="char:EOLhyphen"/>groom, as to ſhew any ſigues of griefe or ſorrow on the following morning to your Wedding day. If you have parted with a long preſerved ioy to night, yet comfort your ſelfe in your loſ<g ref="char:EOLhyphen"/>ſes, for there are many Mayds would have béen glad of your place, and thanke you too, But I have no art in Complements, and therefore in a word, I wiſh you all ioy.</p>
+            </div>
+            <div n="13" type="complement">
+               <head>13. To bid a Bridegroome good morrow.</head>
+               <p>MAſter Bridegroom, I muſt congratulate the ioyes of Marriage, and wiſh they may increaſe daily to both your comforts: you have enioyed to night a happineſſe which my knowledge did never yet arive at<g ref="char:punc">▪</g> and there<g ref="char:EOLhyphen"/>fore it is unpoſſible for me to gueſſe it; however I doe not envy, but wiſh you al happineſſe with your faire choyce. And though by your heavy eye, I diſcerne you have not tooke your due of reſt to night, yet you may take it out the next, for I could wiſh my Bedde were troubled with ſuch fleas, on that condition I ſlept not theſe
+<pb facs="tcp:105190:12"/> two nights. All that I can wiſh is this, that no fatall time day, or houre, may produce a change or alteration in your affections: But that you may live like Turtle Doves you ioying in her and ſhée with mutuall delight making you the obiect of all her happineſſe, that ſo your marri<g ref="char:EOLhyphen"/>age may proove a merri-age.</p>
+            </div>
+            <div n="14" type="complement">
+               <head>14. At the firſt meeting of a friend.</head>
+               <p>SIr, you are well met and moſt happily re<g ref="char:EOLhyphen"/>turned; for fame hath given out a ſiniſter report, that you were miſcarried in your iour<g ref="char:EOLhyphen"/>ney, but I am glad the old proverbe is true, that fame is often a lyer. I pray let a pint of Wine be the Scrivener to renew the bonds of our friendſhip, for I am even full of ioy to be<g ref="char:EOLhyphen"/>hold you, and my heart would bid you welcome in better phraſe, but that I want words to ex<g ref="char:EOLhyphen"/>preſſe the integrity and truth of my affection. I have forgot all this while to enquire of our friends health, my thoughts were ſo wholy bu<g ref="char:EOLhyphen"/>ſied to bid you welcome. But I hope, Sir, they are well.</p>
+            </div>
+            <div n="15" type="complement">
+               <head>15. The other friends anſwer</head>
+               <p>SIr, your friends are all well, and are m<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>nd<g ref="char:EOLhyphen"/>ful of you in the remembrance of their love. Neither am I leſſe ioyfull at our fortunate
+<pb facs="tcp:105190:13"/> méeting, which is a happineſſe I have long wiſhed for; and though my tongue cannot in<g ref="char:EOLhyphen"/>terpret the inward ioy of my heart, yet I would not have you thinke that love is leaſt; which hath leaſt expreſſion of it ſelfe. For a full veſ<g ref="char:EOLhyphen"/>ſell yéelds no ſound, and a heart full of affection cannot ſo eaſily expreſs it ſelfe in a ſmooth way of Complements: in a word I am heartily glad to ſée you and to ſay more, were but to ſpeake the ſame in more words.</p>
+            </div>
+            <div n="16" type="complement">
+               <head>16. To preſent a gift to a Mayd.</head>
+               <p>FAire Mayde, I would deſire you to accept this ſmall Ring, as an embleme of my af<g ref="char:EOLhyphen"/>fection, which like a circle ſhall be ever end<g ref="char:EOLhyphen"/>leſſe. I know it is unworthy your acceptance, y<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>t vaine out of the graciouſneſſe of your hu<g ref="char:EOLhyphen"/>mility, to receive this unworthy pledge of that love and ſervice which I ſhall ever owe you, till time ſhall inable me to expreſſe my love in ſome more worthy gift. And if at any time this toy doe chance to draw downe your eye unto your finger, if you pleaſe to remember me thereby and thinke on me who hath de vo<g ref="char:EOLhyphen"/>ted my ſelfe to your ſervice, I ſhall thinke my ſelfe the leſſe unhappy in my abſence; though indéed till I returne againe, I ſhall be able to relliſh no taſte of comfort, ſince all my ioy is to
+<pb facs="tcp:105190:13"/> enjoy your company: but my buſineſſe doth en<g ref="char:EOLhyphen"/>force me away, ſo that leaving this with you as a <hi>memento</hi> of my affection, I take my leave with as ſad a heart as ever lover parted with his Miſtreſſe.</p>
+            </div>
+            <div n="17" type="complement">
+               <head>17. To bid a friend farewell.</head>
+               <p>SIr, I am ſo unwilling to be deprived of your ſwéete ſociety, and ſo ſorty to looſe the fruition of your good company, that my heart will hardly permit mée to take my leave of you, yet ſince the neceſſity of your occaſions doth enforce us to part, I can but wiſh you a proſperous iourney, and with my prayers daily ſolicite heaven for your ſafe re<g ref="char:EOLhyphen"/>turne. I will not bu<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>then your memory with ſeverall commendations, but onely deſire you to remember my love and ſervice in generall, to all our friends in the Countrey. This is all I require of you, and ſince, though unwil<g ref="char:EOLhyphen"/>ling, wée muſt endure your abſence from us, I will promiſe in the meane time, to bée your Beadeſ-man to pray for your happy iourney and will onely kéepe ſo much of my heart as may kéepe me alive, the other half ſhal go with you. Now I ſee why death is called departing, for departing of friends is a ſhort death; give
+<pb facs="tcp:105190:14"/> me your hand, the ancient embleme of affecti<g ref="char:EOLhyphen"/>on, and I pray be carefull of your ſelfe, ſince in your welfare conſiſts the welfare of all your friends. And ſo farewell.</p>
+            </div>
+            <div n="18" type="complement">
+               <head>18. To entreat a courteſy of a ſtranger</head>
+               <p>SIr, though I am unknowne unto you, yet the report of your knowne courteſ<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> makes me bold to preferre a ſuit to your favourable conſideration. Which if I might obtaine, I ſhould think vertue hath not quite forſaken the World, but that there lives ſuch ſparkes of goodneſſe in your breſt, as may be able to en<g ref="char:EOLhyphen"/>flame poſterity with an emulation of your good<g ref="char:EOLunhyphen"/>neſſe: I beſéech you therefore be not afraid to doe me a courteſie, becauſe I am a Stranger. For by how much you have leſſe inducements to ſhew me any favour, you ſhal<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> thereby make your vertue ſhine with more illuſtrious glory. I muſt confeſſe I have no great mans Letter to prdcure your liking and good opinion of mée, yet ſince my deſires are modeſt, and ſuch as you may grant with eaſe, I hope you will grant my requeſt, in requitall whereof I will proclaime your nobleneſſe and courteſie whereſoever I come, and will be ſure to mention you alwayes in my prayers, who have with the eyes of pitty lookt downe upon the neceſſities of a ſtranger
+<pb facs="tcp:105190:14"/> But I will not urge you with any further im<g ref="char:EOLhyphen"/>portunity, but leave my ſuit to your conſidera<g ref="char:EOLhyphen"/>tion. <hi>Verbum <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>at bono,</hi> few words prevaile with good men in a good cauſe.</p>
+            </div>
+            <div n="19" type="complement">
+               <head>19. To aske a Fathers good will for mar<g ref="char:EOLhyphen"/>rying his Daughter.</head>
+               <p>SIr, it hath pleaſed your Daughter to beſtow her affection upon me, and now I muſt be<g ref="char:EOLhyphen"/>come a ſutor to you for your good will &amp; liking: For ſo farre ſh<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> hath granted me her love, if it be ſeconded by your good allowance. I would intreat you therefore be pleaſed to ratify and e<g ref="char:EOLhyphen"/>ſtabliſh by your frée conſent what the Heavens have already decréed. For our hearts are al<g ref="char:EOLhyphen"/>ready married in heaven, and we lacke nothing now but your conſent, which I hope I ſhall obtaine and ſince we have both béene obedient in making you acquainted with our deſires, I beſéech you ſéeke not to croſſe our loves, but give us both your bleſſing.</p>
+            </div>
+            <div n="20" type="complement">
+               <head>20. To begin a health.</head>
+               <p>GEntlemen, ſince we are now unable to commemorate our friends any other way than by remembring them in a health, I am bolo, out of the overflowing of my love, to de<g ref="char:EOLhyphen"/>dicate
+<pb facs="tcp:105190:15"/> this health to the memory of our abſent friends, I will fill it ſo full that a flye may drinke of it at the top, and will drinke it ſo clearely off, that a flye ſhall not be able to drink at the bottome. And thus Gentlemen I begin it, hoping that no man that honours his friend will refuſe it, for I would have the health in a circular orbe move round about the table, till every man hath had it: And ſo (as I ſaid be<g ref="char:EOLhyphen"/>fore) I begin this health <hi>Ad ſalutem Ami<g ref="char:EOLhyphen"/>corum.</hi> To the health of all our friends, wiſh<g ref="char:EOLhyphen"/>ing them as full a meaſure of all happineſſe, as this cup is full of Wine. I hope you'le pledge me Gentlemen.</p>
+            </div>
+            <div n="21" type="complement">
+               <head>21. To promiſe to pledge it.</head>
+               <p>SIr, héeres no man will refuſe it, for my part I will continue the health for I am bound to ſecond it, ſince it is in memory to our friends, and therefore I will pledge it, though the glaſſe were ſo big, that the Moone might make a c<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>
+                  <g ref="char:EOLhyphen"/>ver to it.</p>
+            </div>
+            <div n="22" type="complement">
+               <head>22. To deſire to be excuſed.</head>
+               <p>GEntlemen, I muſt entreat your pardon, for I dare not drinke ſuch health, ſince I know I ſhould looſe mine owne health by it. Beſides, I hold it a heatheniſh cuſtome, and
+<pb facs="tcp:105190:15"/> not becomming a Chriſtian. I ſhall therefore eſtéeme it a courteſy in you to diſpence with my pledging it; for to ſhew love to our friends by wronging our ſelves, were a part of folly rather then friendſhip. To which purpoſe I have writ<g ref="char:EOLhyphen"/>ten theſe verſes.</p>
+               <lg>
+                  <l>Tis an <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>ld rule now amonſt <hi>Bac<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>ius</hi> traine,</l>
+                  <l>That from our owne healthes drinking we refraine:</l>
+                  <l>Yet now they doe begin healths to their friends,</l>
+                  <l>Which with the loſſe of their owne health ſtill ends:</l>
+                  <l>And thus while of our friends, too much we make,</l>
+                  <l>We love our friends but our owne ſelves we hate.</l>
+               </lg>
+            </div>
+            <div n="23" type="complement">
+               <head>23. To acquaint one with a journey.</head>
+               <p>I Am to ride this morning toward London, and if you pleaſe to command mee any ſer<g ref="char:EOLhyphen"/>vice, I ſhall be carefull in the performance of it: or if you have any thing to buy, pray let me be your ſteward, Ile buy it as cheape as I can for it is a happineſſe to me to have any imploy, ment from you. If therefore you have any buſi<g ref="char:EOLhyphen"/>neſſe or cauſe to ſolicite, truſt me with it and I will uſe the beſt diligence I can to effectuate your deſires, or if you pleaſe to command me a<g ref="char:EOLhyphen"/>ny other ſervice, you ſhall finde me your ready ſervant.</p>
+            </div>
+            <div n="24" type="complement">
+               <head>24. To thanke one for a courteſie.</head>
+               <p>SIr, I muſt acknowledge my ſelf indebted to you for your laſt courteſy, the remembrance
+<pb facs="tcp:105190:16"/> makes me your debtor till I can finde ſome op<g ref="char:EOLhyphen"/>portunity of requitall; neither will I bée un<g ref="char:EOLhyphen"/>gratefull for your laſt favour, but will returne it with intereſt when Fortune ſhall enable me: in the mean time I would deſire you to reckon me in the number of thoſe that are beholding to you, and for your former crurteſies to take the payment of a friend, in a currant Engliſh shankes.</p>
+            </div>
+            <div n="25" type="complement">
+               <head>25. To excuſe a friend in his abſence.</head>
+               <p>SIr, it is the part of one friend to excuſe a<g ref="char:EOLhyphen"/>nother in his abſence, and therefore I in<g ref="char:EOLhyphen"/>treate you not to be offended with him till you know the truth, but to interprete all things to the beſt. For I know it would much grieve him to gaine your diſpleaſure, and therefore let not your wiſedome cenſure him in his abſence for I know hée will cleare himſelfe at his re<g ref="char:EOLhyphen"/>turne. Bée pleaſed therefore to ſuſpend your anger a while, and let not your paſſion pro<g ref="char:EOLhyphen"/>nounce him guilty, before you know the truth: for if you will uniuſtly condemne him, I muſt riſe up in my friends defence, for howſoever his enemies have incenſed you againſt him, I dare engage my ſelfe hée is not guilty of thoſe calumnious ſlaunders which are heaped on him. Let me entreate you therefore not to give
+<pb facs="tcp:105190:16"/> credit to the reports of malicious informers, who can with eaſe defame and caſt aſperſions upon the beſt men, but I would rather have you thinke the beſt of him, till you know the worſt, and then determine of as you find cauſe. If hée deſerve it. let him continue ſtill your friend if not, let him be wiped out of the num<g ref="char:EOLhyphen"/>ber of your friends.</p>
+            </div>
+            <div n="26" type="complement">
+               <head>26. The Wooers Complement.</head>
+               <p>SWéet Maide, the Sunne hath almoſt gone his yearely iourney about the World ſince firſt I beheld the Sunne of your beauty, which hath ſo dazled mine eyes, that I behold all other things as trifles in reſpect of thoſe glorious beames which do ſhoot themſelves from thence. If therefore c<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ntinuance of time may bée any aſſurance of fidelity in love, you muſt néedes confeſſe that I have long béene a devoted ſer<g ref="char:EOLhyphen"/>vant to your perfections. Bée pleaſed therefore now to accept that love of mine, which my fond heart cannot conceale, you are the darling of my thoughts, the treaſure of my heart, the <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>appineſſe of my life: neither would I live <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ndéed, but that I hope in time by my true ſer<g ref="char:EOLhyphen"/>
+                  <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ice and obedience to obtaine your favour, Neither would I have you thinke that I ſlat<g ref="char:EOLhyphen"/>
+                  <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>er you, for my tongue doth but interpret <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>o
+<pb facs="tcp:105190:17"/> my heart, and the heavens know with what a due reverence I honour you. If therefore my love be grounded upon vertuous deſires, you ought to cherriſh it, but if I ſeeke your wrong by ſatisfaction of my owne deſires, let me pe<g ref="char:EOLhyphen"/>riſh in your favour, which is to me above all puniſhments. You are the Load-ſtone of my affection, your lips are the moyſt Adamants that doe attract me, one touch from your hand hath power to revive the dead faculties of age. There is muſick in your voyce, and a lovelines in all your actions. Blame me not then for lo<g ref="char:EOLhyphen"/>ving you, but blame your ſelfe for being ſo wor<g ref="char:EOLhyphen"/>thy of love, and ſince your beauties haue wonn<g ref="char:EOLhyphen"/>ded me, let your gracious anſwer cure mée by conſenting to tie that holy knot of Marriage, which I have often urged. Make me happy in your anſwer.</p>
+            </div>
+            <div n="27" type="complement">
+               <head>27. The Mayds anſwer.</head>
+               <p>SIr, as you are a friend to vertue, I che<g ref="char:EOLunhyphen"/>riſh your Love and am perſwaded you love mée: but alas, wée Maydes have no power to give away our ſelves withou<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> conſent of Parents, neither can we diſpoſe o<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> our ſelves, or be liverall of our affections, til<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> our Parents be acqutinted with it. And there<g ref="char:EOLunhyphen"/>fore you muſt now become a Sutor to my Fa<g ref="char:EOLunhyphen"/>ther;
+<pb facs="tcp:105190:17"/> his liking obtain'd, mine ſhall follow, and if you get his good will: my hand ſhall give you my heart in the Church before the whole Con<g ref="char:EOLhyphen"/>gregation: in the meane time reſt aſſured, you ſhall find me conſtant in affection, and there<g ref="char:EOLhyphen"/>fore you néede ſollicite mée no further, I am yours.</p>
+            </div>
+            <div n="28" type="complement">
+               <head>28. The Wooers anſwer.</head>
+               <p>I Deſire no more happineſſe: for by your an<g ref="char:EOLhyphen"/>ſwere you have revived my drooping heart; neither would I change my eſtate with rich Croeſus, ſince I value the obtaining of your love above the Empire and Dominion of the whole world. I doubt not but we ſhall live and love to<g ref="char:EOLhyphen"/>gether. And as for your Father, I hope he will grant us the priviledge due to al hearts, to love &amp; to enioy: and I wil ſhortly take ſome fit op<g ref="char:EOLhyphen"/>portunity to ſollicite his conſent: in the interim I muſt force my heart to take my leave of you, not daring to ſalute you for feare one kis ſhould tempt me back againe, but tis no matter, what we ſpare now, we will take out upon our Wed<g ref="char:EOLhyphen"/>ding day, Farewell.</p>
+            </div>
+            <div n="29" type="complement">
+               <pb facs="tcp:105190:18"/>
+               <head>29. To invite one home.</head>
+               <p>SIr, I have often deſired your company at home, but yet could never be ſo happy to ob<g ref="char:EOLhyphen"/>taine it. But now you ſhall not deny to grace my poore houſe with your preſence, ſince we are hard by it, and to honou<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> me ſo much as to let the ſtar of your vertue ſhine within the ſphear of my houſe: for I dare promiſe though enter<g ref="char:EOLhyphen"/>tainement be not worthy your invitation, yet you ſhall be as welcome as a friend can be to a friend.</p>
+            </div>
+            <div n="30" type="complement">
+               <head>30. To excuſe with thankes.</head>
+               <p>SIr, I deſire your pardon, for my buſineſſe will not permit me, otherwiſe you ſhould not intreat me twice if I could grant it without much hinderance to my ſelfe. I am ſorry to re<g ref="char:EOLhyphen"/>fuſe your kind invitation, but I will promiſe to viſite you ſhortly, and ſince it is your deſire, I will be bold to call upon you. At this time I am enforced to withſtand my owne happineſſe by denying your frée invitation, but I hope you will excuſe me, and attribute it to my buſineſſe, not want of love.</p>
+            </div>
+            <div n="31" type="complement">
+               <pb facs="tcp:105190:18"/>
+               <head>31. To deliver a Letter to a Lady.</head>
+               <p>MAdam, héere's a Letter waites your per<g ref="char:EOLhyphen"/>uſall; and deſires to be preſented to your Ladyſhips hand, the meſſenger told mée that it was ſent from your humbleſt ſervant Sir T. C.</p>
+            </div>
+            <div n="32" type="complement">
+               <head>32. The Ladies anſwer to her waiting-Gentlewoman.</head>
+               <p>VVHo bid you forſooth receive theſe a<g ref="char:EOLhyphen"/>morous papers? I know tis lighter than a Complement and it may be 'twas writ<g ref="char:EOLhyphen"/>ten in a Taverne, I will not open it till I meane to laugh, for I meane to make it my re<g ref="char:EOLhyphen"/>creation after meales. But I pray be carefull hereafter to receive no more, you know my mind, and now you cannot excuſe your ſelfe by ignorance</p>
+            </div>
+            <div n="33" type="complement">
+               <head>33. The Waiting-mayds anſwer.</head>
+               <p>I Shall obey your Ladyſhips command, for I will not gaine your Ladyſhips diſplea<g ref="char:EOLhyphen"/>
+                  <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ure by receiving their Letters, though they <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>hould tempt me with a ſhower of Gold, I will
+<pb facs="tcp:105190:19"/> not offend wilfully, but will ſtudy in all things to preſerve your favour: for it hath bée hitherto the aime of my deſires to continue my ſelfe in your Ladyſhips good liking, and I hope I ſhall never deſerve the contrary.</p>
+            </div>
+            <div n="34" type="complement">
+               <head>34. The Servingmans wooing of <hi>Suſan</hi> a Chamber-Mayd.</head>
+               <p>SVſan, it is now thrée yeares ſince we have béene fellow-ſervants together. During which time I have received many courte<g ref="char:EOLhyphen"/>ſies from you, and béene invited to many a Sacke Poſſet, which kindneſſes of yours, though tending to no other end than to expreſſe your owne naturall good<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>eſſe, have ſince invi<g ref="char:EOLhyphen"/>ted me to love you. And now having both <gap reason="illegible" resp="#MURP" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ate out the fi<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>e, and our candl<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> burning dim<g ref="char:EOLhyphen"/>ly, I thought this twi-light, would beſt be<g ref="char:EOLhyphen"/>come a Love-ſuit. For I profeſſe unto you Suſan, I love you with as much affection as my heart can obtaine: and albeit <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>e have often fallen out upon trifles, yet I did it but to try thy nature, which I found to be haſty (as the beſt natures are) but not able to retaine anger long, and therefore I hope you will forgive what is paſt, and conſider my motion which tends, to both our good. For is it not better to
+<pb facs="tcp:105190:19"/> live fréely in the marryed ſtate of life, than to depend on ſervice, where every frowne is ready to caſt us off the hinges? for my part <hi>Suſan,</hi> though the unthriftines of my friends did firſt compell me to undertake a ſervile life, yet I could never bring my heart to affect it, and I know you are of the ſame mind, for I have heard you ſay, your Father was a wealthy Far<g ref="char:EOLhyphen"/>mer, who comming behindhand with the world you were put forth to ſervice, which kind of life I know muſt néeds ſéeme tedious, and there<g ref="char:EOLhyphen"/>fore I have propounded a way, whereby wée may both live a frée and happy life. I know you will obiect the want of meanes to maine<g ref="char:EOLhyphen"/>taine a charge or family. Tis true, but yet let us not deſpaire of Gods bleſſings, for have we not ſéene many Couples, whoſe whole ſtock could hardly purchaſe a Wedding Ring, and a Licence, who yet afterward by their owne endeavours have lived more contentedly than theſe great money-matches, which ſel<g ref="char:EOLhyphen"/>dome proſper? for where there is love, there all things thrive, but where there is debate, there all things go to wrack. Love will ſupply the de<g ref="char:EOLhyphen"/>fects of want, ſo that if you pleaſe to entertaine my ſuite with your kind a<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>cep<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ance<g ref="char:punc">▪</g> you ſhall not only frée yo<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>r ſelfe from the ſubiection of a ſervant but live i<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> the ſſwéet yoke of marriage.
+<pb facs="tcp:105190:20"/> And now <hi>Suſan</hi> I entreat you to co<g ref="char:cmbAbbrStroke">̄</g>ſider theſe reaſons which I could enlarge but that I feare our Candle will goe out, and therefore having thus rudely with little art, but much affection, delivered my minde, I hope you will make me happy by your anſwer.</p>
+            </div>
+            <div n="35" type="complement">
+               <head>35. Suſans anſwer.</head>
+               <p>
+                  <hi>ROger,</hi> you are much miſtake<g ref="char:cmbAbbrStroke">̄</g> to interpret any curteſie of mine to procéed from love, though indéed I have alwaies loved you as one ſervant may love another. But for other mat<g ref="char:EOLhyphen"/>ters (as they ſay) I never ſo much as dream't of them, and therefore doe not urge ſo vaine a ſuite, for I have ſomething elſe to doe, than to thinke of marriage. It is a ſigne <hi>Roger</hi> you live eaſily, for eaſe is the nurſe of love; but if you ſate up night by night, ſtarching as I doe, and then aroſe againe as early in the mor<g ref="char:EOLhyphen"/>ning you would have little mind to entertaine a thought of love, And therefore hereafter buſie your ſelfe in ſome good imployment, &amp; you ſhal ſée theſe idle fancies will vaniſh of themſelves. But if by this meanes your deſires be not aba<g ref="char:EOLhyphen"/>ted, I will conſider better of your motion, and this is all I can ſay at this time, in anſwere of your ſuit. And ſo farewell, for I heare my
+<pb facs="tcp:105190:20"/> Miſtris knocke above, and therefore I muſt be gone.</p>
+            </div>
+            <div n="36" type="complement">
+               <head>36. To deſire a Mayd to ſpeake to the Miſtreſſe</head>
+               <p>SWéete-heart, I know your long and faith<g ref="char:EOLhyphen"/>full ſervice hath indear'd you into your Mi<g ref="char:EOLhyphen"/>ſtreſſes opinion, ſo that ſhe rep<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ſes ſome truſt and confidence in your words, and I know you are not ignorant of thoſe ſtrange times &amp; ſea<g ref="char:EOLhyphen"/>ſons when womens fancies are moſt apt to re<g ref="char:EOLhyphen"/>ceive Loves impreſſion If therefore you would pleaſe to take ſome houre of advantage to re<g ref="char:EOLhyphen"/>member my ſuite to your Miſtreſſe, and would but caſt forth ſome words that may ſtir affecti<g ref="char:EOLhyphen"/>on in my behalfe, I would not proove unthank<g ref="char:EOLhyphen"/>full, For though others have ſolicited you in the ſame way, yet if you will promi<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> mée your good word and aſſiſtance to preferre my ſute to your Miſtreſſe, I will requite it in your owne deſire, in earneſt whereof I would intreate you to weare this Ring; and to be mindfull of me in my abſence, that ſo at my next viſitatio<g ref="char:cmbAbbrStroke">̄</g> of your Miſtris, I may find her more i<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>c<gap reason="illegible" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>
+                  <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>able to my ſu<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>e. Farewell.</p>
+            </div>
+            <div n="37" type="complement">
+               <pb facs="tcp:105190:21"/>
+               <head>37. To intreat lodging at a Gentle<g ref="char:EOLhyphen"/>mans houſe.</head>
+               <p>SIr, being a ſtranger benighted and ſtrayed out of my may and finding that the Village Towne affords no Inne or houſe of receipt, I wouldgladly be beholding to you for this nights lodging till in the morning I may receive ſome better directions to procéed on my iourney.</p>
+            </div>
+            <div n="38" type="complement">
+               <head>38. The Gentlemans anſwer.</head>
+               <p>SIr, it is a courteſy that the lawes of hoſpita<g ref="char:EOLhyphen"/>lity bind me to performe. I muſt confeſſe our Towne is but ill provided for the entertain<g ref="char:EOLhyphen"/>ment of ſtrangers, and therefore if you pleaſe to accept of ſuch a meane lodging as my houſe can afford, you ſhall be welcome.</p>
+            </div>
+            <div n="39" type="complement">
+               <head>39. A bold Complement to a Widdow.</head>
+               <p>SWéet Widdow, I come not with a tedious Complement to win affection: but I come with love and youth, which are more gracefull qualities in a Widdowes eyes. I am indéed a younger brother, and have no land to indéere me
+<pb facs="tcp:105190:21"/> into your liking, yet if you pleaſe (as they ſay) to caſt away yourſelfe upon a man, I hope I ſhal be able to delight you with the ſwéet contents of love. Thinke it not therefore the worſt chari<g ref="char:EOLhyphen"/>ty to make a man, and to raiſe the fortunes of a yonger Brother, who only wants ſome of that white and red earth, which lyes by you ſo un<g ref="char:EOLhyphen"/>comfortably Come, I will not be put backe or daunted, nor will I take your no, for a denyall: for I know, however you Widdowes ſéeme to diſlike our boldneſſe<g ref="char:punc">▪</g> yet in your owne thoughts you doe commend us; when like good Souldiers comming up bravely, we make an aſſault upo<g ref="char:cmbAbbrStroke">̄</g> your lips and ſcorne to retire, although your eyes ſhoot frownes againſt us. Thus far (ſwéet Widdow) I have bin bold with you, and I hope not more bold than welcome: yet leſt I ſhould p<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>eſume too far, know therfore in plaine termes that albeit I am the laſt that hath ſollicited you for affection, yet doe I not leaſt affect you, but ſhould be glad of ſuch a comforter as yourſelfe, who by your good counſel may reclaim me from the wild unſtayed errors of my youth, for being once marryed, I wil faſt from all looſe affection, ſtriving night and day to make myſelf worthy of the title of your husband, which I hope you will grant me, that ſo our wooing may conclude in a wedding.</p>
+            </div>
+            <div n="40" type="complement">
+               <pb facs="tcp:105190:22"/>
+               <head>40. The Widdowes anſwer.</head>
+               <p>ALas Sir, the remembrance of my late Husband, whoſe memory doth ever draw teares from mine eyes, his memory (I ſay) had ſo farre once prevailed, and was ſo déepely im<g ref="char:EOLhyphen"/>planted in me, that I reſolved never to make a ſecond choyce. But yet I know not how, moo<g ref="char:EOLhyphen"/>ved rather out of pitty to your ſelfe, than any de<g ref="char:EOLhyphen"/>ſire of my owne, I am willing to ſecond your deſires in any lawfull affection. For I ſee you can ſpeake moovingly, and I muſt confeſſe you have wrought more upo<g ref="char:cmbAbbrStroke">̄</g> me than many others whom I could put backe at any time by telling them with a ſerious countenance, that I never meant to marry. But I ſée you wil have no an<g ref="char:EOLhyphen"/>ſwer but in the right kind, and therefore (as I ſaid before) in pitty of your youth, hoping you will be a comfort to my age, and proove a good Husband, I am content to make you Maſter of my ſelfe and mine. But ſtill I ſay in pitty of your youth, for tis your youth and young blood that I love.</p>
+            </div>
+            <div n="41" type="complement">
+               <head>41. To wooe a Country Mayd</head>
+               <p>FAire Mayd the opportunity of occaſion, and the ſtrong bent of my affection (which will
+<pb facs="tcp:105190:22"/> either break out in words, or breake my heart) compell me to take this ſhort time to diſcover my deſires unto you. The firſt time that I be<g ref="char:EOLhyphen"/>held you, was, when you were reaping your fa<g ref="char:EOLhyphen"/>thers corne, and then it ſéemed to mee that the golden eares did even bend unto your hands, &amp; your ſtraw hat became you better than if you had wo<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>e a coronet of ſtarres. But indeed what néed you weare a ſtarry crown, whoſe eyes are ſtarres and have ſo powerfull an influence up<g ref="char:EOLhyphen"/>on the beholders, that ever ſince that day, my heart hath never béen mine owne, but yours, and my thoughts have béene wholly given over to thinke of nothing but the obtaining your love, for which I am come now to entreate, b<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>gge, and ſue, knowing that you cannot be unmerci<g ref="char:EOLhyphen"/>full: for if you will ſave your Fathers Lambs out of danger when they fall into a pit. if ſuch trifling things can moove your compaſſion. I hope you will a little commiſerate the dolou<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>s, and extreame paſſions of a Lover. For I per<g ref="char:EOLhyphen"/>
+                  <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>wade you to nothing but that which is the end of your comming into this world<g ref="char:punc">▪</g> and that is marriage, for how ſoone would the world decay and come to nothing, if it were not preſerved by marriage? ſince therfore nature hath given you ſo large perfections, ſhe lookes that you ſhould requite her againe, and not to let your beauties
+<pb facs="tcp:105190:23"/> wither on your chéeke, but to beſtow your youth and beauty on him who will honor you both in age and ſickeneſſe. For know this that beauty is a fading flower, which cannot long continue, and as Fryer <hi>Bacons</hi> headſpake, <hi>Time is, Time was, Time is paſt:</hi> ſo Mayds have their ſev<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>rall times and ſeaſons; for at 15. they are in their prime, and then Time is, at 30. Time was, and at 40. Time it paſt. But I néede not, I hope, uſe ſo many circumſtances in words, to come to the ſull point af Marriage, ſince you yourſelfe cannot be ignorant of my affection For when you went to milke, I have like a faint ſhadow followed you, a<g ref="char:cmbAbbrStroke">̄</g>nd when you went to fold your fathers ſhéepe, I have helpt you all which were ſervices of that love and duty which my heart doth owe you. Be pleaſed therefore now out of the goodneſſe of your nature, and by that ſoft compaſſion which ſhould dwell in a Ma<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>dens heart<g ref="char:punc">▪</g> to grant me your love, and then I ſhal eſtéeme myſelfe more happy than the greateſt Monarch in the world. I beſéech you do not de<g ref="char:EOLhyphen"/>ny me, but let one chaſt kiſſe ſtrike a bargaine betwéene us, that ſo we may tie the true Lovers knot of marriage.</p>
+            </div>
+            <div n="42" type="complement">
+               <pb facs="tcp:105190:23"/>
+               <head>42. The Country Maydes anſwer.</head>
+               <p>SIr, I had thought you would not have mockt me by laying beauty to my charge, for I have often beheld my face in the running ſtreame, but I wiſh I could never behold ſuch a dicker of beauty as you will aſcribe unto me. You compare my eyes unto ſtarres, and I know not what. Alas, Sir, doe you thinke we Coun<g ref="char:EOLhyphen"/>treyMayds are ſuch harmeleſſe innocent fooles that we are taken with fine fai<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>e words, which you Courtiers call Complements? Alas no, you may goe uſe them to Ladies: yet I know not how, mée thinkes your words come from you with ſuch fervency of affection, that I could find in my heart to anſwer you in your owne phraſe, for you muſt know wée Country Mayds can Complement as wel as you: know therefore that if your former words doe pro<g ref="char:EOLhyphen"/>ceed out of chaſt deſire to marry mee, and if your heart hath beene ſo long a ſervant of mine I will not detaine your wages, but will pay you love for love againe, and that I know is the payment that you expect. But I pray boaſt not that you overcame me with a Compleme<g ref="char:cmbAbbrStroke">̄</g>t though indéed I like your Complements very well, which being ſet forth with a languiſh<g ref="char:EOLhyphen"/>ing
+<pb facs="tcp:105190:24"/> behaviour, did become you ſo wel, that I am content to yeeld my ſelfe to your diſpoſing, and to make my ſelfe an example to ſhew what great power a Complement delivered in due time and place may have over a mayds affecti<g ref="char:EOLhyphen"/>on: and ſo without further ceremony, pray let our Ba<gap reason="illegible" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>es be bidden, let the fidlers be hired to play upon our wedding day, and let the Mayds ſtrew the way to Church woth flowers, for your Complement hath over<g ref="char:EOLhyphen"/>come me, and ſo I leave you.</p>
+            </div>
+            <trailer>FINIS.</trailer>
+            <pb facs="tcp:105190:24"/>
+         </div>
+      </body>
+   </text>
+</TEI>
